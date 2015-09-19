@@ -12,19 +12,16 @@
     
         <link rel="alternative" type="application/atom+xml" title="RSS" href="/atom.xml">
     
-    <meta name="description" content="##Page Factory MVVM library for Xamarin.Forms
-This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a">
+    <meta name="description" content="Page Factory MVVM library for Xamarin.FormsThis is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a tes">
 <meta property="og:type" content="blog">
 <meta property="og:title" content="Page Factory MVVM library for Xamarin.Forms">
 <meta property="og:url" content="http://daniel-luberda.github.io/20150919/Page-Factory-MVVM-library-for-Xamarin-Forms/index.html">
 <meta property="og:site_name" content="Daniel Luberda Blog">
-<meta property="og:description" content="##Page Factory MVVM library for Xamarin.Forms
-This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a">
-<meta property="og:updated_time" content="2015-09-19T15:07:10.000Z">
+<meta property="og:description" content="Page Factory MVVM library for Xamarin.FormsThis is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a tes">
+<meta property="og:updated_time" content="2015-09-19T15:29:23.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Page Factory MVVM library for Xamarin.Forms">
-<meta name="twitter:description" content="##Page Factory MVVM library for Xamarin.Forms
-This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a">
+<meta name="twitter:description" content="Page Factory MVVM library for Xamarin.FormsThis is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a tes">
     
     
     
@@ -188,8 +185,9 @@ This is a test. This is a test. This is a test. This is a test. This is a test. 
     
     <div class="post-content markdown" itemprop="articleBody">
         <div class="main-content-wrap">
-            <p>##Page Factory MVVM library for Xamarin.Forms</p>
-<p>This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. </p>
+            <h2 id="Page_Factory_MVVM_library_for_Xamarin-Forms">Page Factory MVVM library for Xamarin.Forms</h2><p>This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. </p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">public App()&#10;&#123;&#10;&#9;var pageFactory = new XamarinFormsPageFactory();&#10;&#9;var navigationPage = pageFactory.Init&#60;HomeViewModel, PFNavigationPage&#62;();&#10;&#9;MainPage = navigationPage;&#10;&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">public class HomeViewModel : BaseViewModel, INotifyPropertyChanged&#10;&#123;&#10;&#9;public HomeViewModel()&#10;&#9;&#123;&#10;&#9;&#9;PageTitle = &#34;HomePage&#34;;&#10;&#9;&#9;LabelText = &#34;This is first Page&#34;;&#10;&#10;&#9;&#9;OpenPageCommand = new PageFactoryCommand(() =&#62; &#123;&#10;&#10;&#9;&#9;&#9;PageFactory.GetMessagablePageFromCache&#60;DetailsViewModel&#62;()&#10;&#9;&#9;&#9;&#9;.ResetViewModel()&#10;&#9;&#9;&#9;&#9;.SendMessageToViewModel(&#34;ViewModelTestMessage&#34;, sender: this, arg: new object())&#10;&#9;&#9;&#9;&#9;.SendMessageToPage(&#34;PageTestMessage&#34;, sender: this, arg: new object())&#10;&#9;&#9;&#9;&#9;.PushPage();&#10;&#9;&#9;&#125;);&#9;&#10;&#9;&#125;&#10;&#10;&#9;string labelText;&#10;&#9;public string LabelText&#10;&#9;&#123;&#10;&#9;&#9;get &#123; return labelText; &#125;&#10;&#9;&#9;set &#123; SetField(ref labelText, value, () =&#62; LabelText); &#125;&#10;&#9;&#125;&#10;&#10;&#9;string pageTitle;&#10;&#9;public string PageTitle&#10;&#9;&#123;&#10;&#9;&#9;get &#123; return pageTitle; &#125;&#10;&#9;&#9;set &#123; SetField(ref pageTitle, value, () =&#62; PageTitle); &#125;&#10;&#9;&#125;&#10;&#10;&#9;public ICommand OpenPageCommand &#123; get; private set; &#125;&#10;&#125;</span><br></pre></td></tr></table></figure>
 
             
                 
