@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://daniel-luberda.github.io/"/>
-  <updated>2015-09-19T15:29:23.000Z</updated>
+  <updated>2015-09-19T16:38:01.000Z</updated>
   <id>http://daniel-luberda.github.io/</id>
   
   <author>
@@ -19,13 +19,19 @@
     <link href="http://daniel-luberda.github.io/20150919/Page-Factory-MVVM-library-for-Xamarin-Forms/"/>
     <id>http://daniel-luberda.github.io/20150919/Page-Factory-MVVM-library-for-Xamarin-Forms/</id>
     <published>2015-09-19T14:14:51.000Z</published>
-    <updated>2015-09-19T15:29:23.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="Page_Factory_MVVM_library_for_Xamarin-Forms">Page Factory MVVM library for Xamarin.Forms</h2><p>This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. </p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">public App()&#10;&#123;&#10;&#9;var pageFactory = new XamarinFormsPageFactory();&#10;&#9;var navigationPage = pageFactory.Init&#60;HomeViewModel, PFNavigationPage&#62;();&#10;&#9;MainPage = navigationPage;&#10;&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">public class HomeViewModel : BaseViewModel, INotifyPropertyChanged&#10;&#123;&#10;&#9;public HomeViewModel()&#10;&#9;&#123;&#10;&#9;&#9;PageTitle = &#34;HomePage&#34;;&#10;&#9;&#9;LabelText = &#34;This is first Page&#34;;&#10;&#10;&#9;&#9;OpenPageCommand = new PageFactoryCommand(() =&#62; &#123;&#10;&#10;&#9;&#9;&#9;PageFactory.GetMessagablePageFromCache&#60;DetailsViewModel&#62;()&#10;&#9;&#9;&#9;&#9;.ResetViewModel()&#10;&#9;&#9;&#9;&#9;.SendMessageToViewModel(&#34;ViewModelTestMessage&#34;, sender: this, arg: new object())&#10;&#9;&#9;&#9;&#9;.SendMessageToPage(&#34;PageTestMessage&#34;, sender: this, arg: new object())&#10;&#9;&#9;&#9;&#9;.PushPage();&#10;&#9;&#9;&#125;);&#9;&#10;&#9;&#125;&#10;&#10;&#9;string labelText;&#10;&#9;public string LabelText&#10;&#9;&#123;&#10;&#9;&#9;get &#123; return labelText; &#125;&#10;&#9;&#9;set &#123; SetField(ref labelText, value, () =&#62; LabelText); &#125;&#10;&#9;&#125;&#10;&#10;&#9;string pageTitle;&#10;&#9;public string PageTitle&#10;&#9;&#123;&#10;&#9;&#9;get &#123; return pageTitle; &#125;&#10;&#9;&#9;set &#123; SetField(ref pageTitle, value, () =&#62; PageTitle); &#125;&#10;&#9;&#125;&#10;&#10;&#9;public ICommand OpenPageCommand &#123; get; private set; &#125;&#10;&#125;</span><br></pre></td></tr></table></figure>
+    <updated>2015-09-19T16:38:01.000Z</updated>
+    <content type="html"><![CDATA[<h2>Page Factory MVVM library for Xamarin.Forms</h2>
+<p>This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test.</p>
+<p><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="title">App</span>(<span class="params"></span>)</span><br><span class="line"></span>&#123;</span><br><span class="line">	<span class="keyword">var</span> pageFactory = <span class="keyword">new</span> XamarinFormsPageFactory();</span><br><span class="line">	<span class="keyword">var</span> navigationPage = pageFactory.Init&lt;HomeViewModel, PFNavigationPage&gt;();</span><br><span class="line">	MainPage = navigationPage;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>test</p>
+<p><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> page1 = PageFactory.GetPageAsNewInstance(saveOrReplaceInCache: <span class="keyword">true</span>).PushPage();</span><br><span class="line"><span class="keyword">var</span> page2 = PageFactory.GetMessagablePageFromCache&lt;HomeViewModel&gt;().PopPage();</span><br></pre></td></tr></table></figure></p>
+<p>test</p>
+<p><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">override</span> <span class="keyword">void</span> <span class="title">PageFactoryMessageReceived</span>(<span class="params"><span class="keyword">string</span> message, <span class="keyword">object</span> sender, <span class="keyword">object</span> arg</span>)</span><br><span class="line"></span>&#123;</span><br><span class="line">	Console.WriteLine(<span class="string">"Message received &#123;0&#125; message from &#123;1&#125; with arg of &#123;2&#125; type"</span>,  </span><br><span class="line">		message, sender.GetType(), arg.GetType());</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>test</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h2 id="Page_Factory_MVVM_library_for_Xamarin-Forms">Page Factory MVVM library for Xamarin.Forms</h2><p>This is a test. This is a test. This]]>
+    <![CDATA[<h2>Page Factory MVVM library for Xamarin.Forms</h2>
+<p>This is a test. This is a test. This is a test. This is a test. This is a test. This]]>
     </summary>
     
       <category term="C#" scheme="http://daniel-luberda.github.io/tags/C/"/>
@@ -43,6 +49,21 @@
       <category term="Navigation" scheme="http://daniel-luberda.github.io/tags/Navigation/"/>
     
       <category term="Xamarin.Forms" scheme="http://daniel-luberda.github.io/tags/Xamarin-Forms/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Welcome]]></title>
+    <link href="http://daniel-luberda.github.io/20150918/Welcome/"/>
+    <id>http://daniel-luberda.github.io/20150918/Welcome/</id>
+    <published>2015-09-18T16:00:43.000Z</published>
+    <updated>2015-09-19T16:42:58.000Z</updated>
+    <content type="html"><![CDATA[<h1>Welcome to my blog</h1>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1>Welcome to my blog</h1>
+]]>
+    </summary>
     
   </entry>
   
