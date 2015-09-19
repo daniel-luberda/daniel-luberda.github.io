@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://daniel-luberda.github.io/"/>
-  <updated>2015-09-19T14:31:17.000Z</updated>
+  <updated>2015-09-19T15:07:10.000Z</updated>
   <id>http://daniel-luberda.github.io/</id>
   
   <author>
@@ -19,17 +19,30 @@
     <link href="http://daniel-luberda.github.io/20150919/Page-Factory-MVVM-library-for-Xamarin-Forms/"/>
     <id>http://daniel-luberda.github.io/20150919/Page-Factory-MVVM-library-for-Xamarin-Forms/</id>
     <published>2015-09-19T14:14:51.000Z</published>
-    <updated>2015-09-19T14:31:17.000Z</updated>
-    <content type="html"><![CDATA[<p>#Page Factory MVVM library for Xamarin.Forms</p>
-<p>This is a test</p>
+    <updated>2015-09-19T15:07:10.000Z</updated>
+    <content type="html"><![CDATA[<p>##Page Factory MVVM library for Xamarin.Forms</p>
+<p>This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. This is a test. </p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>#Page Factory MVVM library for Xamarin.Forms</p>
-<p>This is a test</p>
-]]>
+    <![CDATA[<p>##Page Factory MVVM library for Xamarin.Forms</p>
+<p>This is a test. This is a test. This is a test. This is a test. This is a test. This]]>
     </summary>
     
-      <category term="MVVM C# Xamarin.Forms" scheme="http://daniel-luberda.github.io/tags/MVVM-C-Xamarin-Forms/"/>
+      <category term="C#" scheme="http://daniel-luberda.github.io/tags/C/"/>
+    
+      <category term="Caching" scheme="http://daniel-luberda.github.io/tags/Caching/"/>
+    
+      <category term="DLToolkit" scheme="http://daniel-luberda.github.io/tags/DLToolkit/"/>
+    
+      <category term="DLToolkit.PageFactory" scheme="http://daniel-luberda.github.io/tags/DLToolkit-PageFactory/"/>
+    
+      <category term="INotifyPropertyChanged" scheme="http://daniel-luberda.github.io/tags/INotifyPropertyChanged/"/>
+    
+      <category term="MVVM" scheme="http://daniel-luberda.github.io/tags/MVVM/"/>
+    
+      <category term="Navigation" scheme="http://daniel-luberda.github.io/tags/Navigation/"/>
+    
+      <category term="Xamarin.Forms" scheme="http://daniel-luberda.github.io/tags/Xamarin-Forms/"/>
     
   </entry>
   
