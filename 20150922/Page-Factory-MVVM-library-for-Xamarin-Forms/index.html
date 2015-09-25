@@ -1,26 +1,253 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[Daniel Luberda]]></title>
-  <subtitle><![CDATA[My Technology Blog]]></subtitle>
-  <link href="/atom.xml" rel="self"/>
-  <link href="http://daniel-luberda.github.io/"/>
-  <updated>2015-09-25T20:32:00.000Z</updated>
-  <id>http://daniel-luberda.github.io/</id>
-  
-  <author>
-    <name><![CDATA[Daniel Luberda]]></name>
+
+<!DOCTYPE html>
+<html lang="en">
     
-  </author>
-  
-  <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title><![CDATA[Page Factory MVVM library for Xamarin.Forms]]></title>
-    <link href="http://daniel-luberda.github.io/20150922/Page-Factory-MVVM-library-for-Xamarin-Forms/"/>
-    <id>http://daniel-luberda.github.io/20150922/Page-Factory-MVVM-library-for-Xamarin-Forms/</id>
-    <published>2015-09-22T14:13:07.000Z</published>
-    <updated>2015-09-25T20:32:00.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="page-factory-mvvm-library-for-xamarin-forms"><a class="header-anchor" href="#page-factory-mvvm-library-for-xamarin-forms">Ξ </a>Page Factory MVVM library for Xamarin.Forms</h1>
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Daniel Luberda">
+    <title>Page Factory MVVM library for Xamarin.Forms - Daniel Luberda</title>
+    <meta name="author" content="Daniel Luberda">
+    
+    
+        <link rel="alternative" type="application/atom+xml" title="RSS" href="/atom.xml">
+    
+    <meta name="description" content="Ξ Page Factory MVVM library for Xamarin.Forms
+The main reason for making PageFactory was that I needed a very simple to use MVVM library which would free me from implementing the same things for any X">
+<meta property="og:type" content="blog">
+<meta property="og:title" content="Page Factory MVVM library for Xamarin.Forms">
+<meta property="og:url" content="http://daniel-luberda.github.io/20150922/Page-Factory-MVVM-library-for-Xamarin-Forms/index.html">
+<meta property="og:site_name" content="Daniel Luberda">
+<meta property="og:description" content="Ξ Page Factory MVVM library for Xamarin.Forms
+The main reason for making PageFactory was that I needed a very simple to use MVVM library which would free me from implementing the same things for any X">
+<meta property="og:image" content="http://daniel-luberda.github.io/hello-world.png">
+<meta property="og:image" content="http://daniel-luberda.github.io/example-screenshoot.png">
+<meta property="og:updated_time" content="2015-09-25T20:32:00.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Page Factory MVVM library for Xamarin.Forms">
+<meta name="twitter:description" content="Ξ Page Factory MVVM library for Xamarin.Forms
+The main reason for making PageFactory was that I needed a very simple to use MVVM library which would free me from implementing the same things for any X">
+    
+    
+    
+        <meta property="og:image" content="/assets/images/avatar.png"/>
+    
+    
+        <meta property="og:image" content="/20150922/Page-Factory-MVVM-library-for-Xamarin-Forms/thumbnail.png"/>
+        <meta class="swiftype" name="image" data-type="enum" content="http://daniel-luberda.github.io/20150922/Page-Factory-MVVM-library-for-Xamarin-Forms/thumbnail.png" />
+    
+    
+        <meta property="og:image" content="/20150922/Page-Factory-MVVM-library-for-Xamarin-Forms/cover.png"/>
+        <meta class="swiftype" name="image" data-type="enum" content="http://daniel-luberda.github.io/20150922/Page-Factory-MVVM-library-for-Xamarin-Forms/cover.png" />
+    
+    
+    <!--STYLES-->
+    <link rel="stylesheet" href="/assets/css/style.min.css" type="text/css">
+    <!--STYLES END-->
+    
+</head>
+
+    <body>
+        <div id="blog">
+            <header id="header" data-behavior="3">
+    <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+    <h1 class="header-title">
+        <a class="header-title-link" href="/ ">Daniel Luberda</a>
+    </h1>
+    
+        <a class="header-right-picture" href="/#about">
+            <img class="header-picture" src="/assets/images/avatar.png"/>
+        </a>
+    
+</header>
+            <nav id="sidebar" data-behavior="3">
+    
+        <div class="sidebar-profile">
+            <a href="/#about">
+                
+                    <img class="sidebar-profile-picture" src="/assets/images/avatar.png"/>
+                
+            </a>
+            <span class="sidebar-profile-name">Daniel Luberda</span>
+        </div>
+    
+    
+        <ul class="sidebar-buttons">
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="/ "
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+                    <span class="sidebar-button-desc">Home</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="/all-categories"
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+                    <span class="sidebar-button-desc">Categories</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="/all-tags"
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+                    <span class="sidebar-button-desc">Tags</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="/all-archives"
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+                    <span class="sidebar-button-desc">Archive</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link st-search-show-outputs"
+                         href="/#search"
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-search"></i>
+                    <span class="sidebar-button-desc">Search</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="/#about"
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+                    <span class="sidebar-button-desc">About</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+        <ul class="sidebar-buttons">
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link " href="https://github.com/daniel-luberda" target="_blank">
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+                    <span class="sidebar-button-desc">GitHub</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link " href="http://stackoverflow.com/users/5064986/daniel-luberda" target="_blank">
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-stack-overflow"></i>
+                    <span class="sidebar-button-desc">Stack Overflow</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link " href="https://linkedin.com/pub/daniel-luberda/92/944/697" target="_blank">
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-linkedin"></i>
+                    <span class="sidebar-button-desc">Linked In</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link " href="https://twitter.com/daniel_luberda" target="_blank">
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-twitter"></i>
+                    <span class="sidebar-button-desc">Twitter</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+        <ul class="sidebar-buttons">
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="/atom.xml"
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
+                    <span class="sidebar-button-desc">RSS</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+</nav>
+
+            
+        <div class="post-header-cover
+                    text-center
+                    post-header-cover--partial"
+             style="background-image:url('/20150922/Page-Factory-MVVM-library-for-Xamarin-Forms/cover.png');"
+             data-behavior="3">
+            
+                <div class="post-header main-content-wrap text-center">
+    
+        <h1 class="post-title" itemprop="headline">
+            Page Factory MVVM library for Xamarin.Forms
+        </h1>
+    
+    <div class="post-meta">
+    <time itemprop="datePublished" content="Tue Sep 22 2015 16:13:07 GMT+0200">
+	
+		    Sep 22, 2015
+    	
+    </time>
+    
+        <span>in </span>
+        
+    <a class="category-link" href="/categories/PageFactory/">PageFactory</a>, <a class="category-link" href="/categories/PageFactory/Xamarin-Forms/">Xamarin.Forms</a>
+
+
+    
+</div>
+</div>
+            
+        </div>
+
+            <div id="main" data-behavior="3"
+                 class="hasCover
+                        hasCoverMetaIn
+                        ">
+                
+<article class="post" itemscope itemType="http://schema.org/BlogPosting">
+    
+    
+    <div class="post-content markdown" itemprop="articleBody">
+        <div class="main-content-wrap">
+            <h1 id="page-factory-mvvm-library-for-xamarin-forms"><a class="header-anchor" href="#page-factory-mvvm-library-for-xamarin-forms">Ξ </a>Page Factory MVVM library for Xamarin.Forms</h1>
 <p>The main reason for making PageFactory was that I needed a very simple to use MVVM library which would free me from implementing the same things for any Xamarin.Forms project I created all over again. Those things were Page Caching, ViewModel oriented Navigation, INotifyPropertyChanged and ICommand implementations, Messaging between Pages and ViewModels. I also wanted my ViewModels to be dependency free (not forcing any concrete class inheritance).</p>
 <p>That’s it. It’s very simple, no dependency injections, no platform specific code - just plain PCL. What comes with it, it’s very very lightweight. Here’s a blog note about it.</p>
 <h2 id="table-of-contents"><a class="header-anchor" href="#table-of-contents">Ξ </a>Table of contents</h2>
@@ -170,58 +397,232 @@
 <figure class="highlight csharp"><figcaption><span>DetailsPage.cs</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">DetailsPage</span> : PFContentPage&lt;DetailsViewModel&gt;</span><br><span class="line"></span>&#123;</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="title">DetailsPage</span><span class="params">()</span></span><br><span class="line">  </span>&#123;</span><br><span class="line">    <span class="keyword">this</span>.<span class="function"><span class="title">SetBinding&lt;DetailsViewModel&gt;</span><span class="params">(Page.TitleProperty, v =&gt; v.PageTitle)</span></span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">var</span> label = <span class="keyword">new</span> <span class="function"><span class="title">Label</span><span class="params">()</span> </span>&#123;</span><br><span class="line">      HorizontalOptions = LayoutOptions.CenterAndExpand,</span><br><span class="line">      VerticalOptions = LayoutOptions.CenterAndExpand,</span><br><span class="line">    &#125;;</span><br><span class="line">    label.<span class="function"><span class="title">SetBinding&lt;DetailsViewModel&gt;</span><span class="params">(Label.TextProperty, v =&gt; v.DetailsLabelText)</span></span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">var</span> button = <span class="keyword">new</span> <span class="function"><span class="title">Button</span><span class="params">()</span> </span>&#123;</span><br><span class="line">      HorizontalOptions = LayoutOptions.FillAndExpand,</span><br><span class="line">      Text = <span class="string">"Lock access &amp; return to HomePage"</span></span><br><span class="line">    &#125;;</span><br><span class="line">    button.<span class="function"><span class="title">SetBinding&lt;DetailsViewModel&gt;</span><span class="params">(Button.CommandProperty, v =&gt; v.PopDetailsPageCommand)</span></span>;</span><br><span class="line"></span><br><span class="line">    Content = <span class="keyword">new</span> StackLayout &#123; </span><br><span class="line">      Children = &#123;</span><br><span class="line">        label,</span><br><span class="line">        button</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">public</span> <span class="keyword">override</span> <span class="function"><span class="keyword">void</span> <span class="title">PageFactoryPopped</span><span class="params">()</span></span><br><span class="line">  </span>&#123;</span><br><span class="line">    <span class="comment">// Removes Page instance from PageFactory cache (it will be no longer needed)</span></span><br><span class="line">    <span class="keyword">this</span>.<span class="function"><span class="title">RemovePageInstanceFromCache</span><span class="params">()</span></span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h1 id="summary"><a class="header-anchor" href="#summary">Ξ </a>Summary</h1>
 <p>That’s all for now. Feel free to test it out and notify me about any errors / your suggestions. Thanks!</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<h1 id="page-factory-mvvm-library-for-xamarin-forms"><a class="header-anchor" href="#page-factory-mvvm-library-for-xamarin-forms">Ξ </a>Page]]>
-    </summary>
-    
-      <category term="C#" scheme="http://daniel-luberda.github.io/tags/C/"/>
-    
-      <category term="Caching" scheme="http://daniel-luberda.github.io/tags/Caching/"/>
-    
-      <category term="DLToolkit" scheme="http://daniel-luberda.github.io/tags/DLToolkit/"/>
-    
-      <category term="DLToolkit.PageFactory" scheme="http://daniel-luberda.github.io/tags/DLToolkit-PageFactory/"/>
-    
-      <category term="ICommand" scheme="http://daniel-luberda.github.io/tags/ICommand/"/>
-    
-      <category term="INotifyPropertyChanged" scheme="http://daniel-luberda.github.io/tags/INotifyPropertyChanged/"/>
-    
-      <category term="MVVM" scheme="http://daniel-luberda.github.io/tags/MVVM/"/>
-    
-      <category term="Messaging" scheme="http://daniel-luberda.github.io/tags/Messaging/"/>
-    
-      <category term="Navigation" scheme="http://daniel-luberda.github.io/tags/Navigation/"/>
-    
-      <category term="PageFactory" scheme="http://daniel-luberda.github.io/tags/PageFactory/"/>
-    
-      <category term="PageFactoryCommand" scheme="http://daniel-luberda.github.io/tags/PageFactoryCommand/"/>
-    
-      <category term="ViewModel" scheme="http://daniel-luberda.github.io/tags/ViewModel/"/>
-    
-      <category term="Xamarin" scheme="http://daniel-luberda.github.io/tags/Xamarin/"/>
-    
-      <category term="Xamarin.Forms" scheme="http://daniel-luberda.github.io/tags/Xamarin-Forms/"/>
-    
-      <category term="PageFactory" scheme="http://daniel-luberda.github.io/categories/PageFactory/"/>
-    
-      <category term="Xamarin.Forms" scheme="http://daniel-luberda.github.io/categories/PageFactory/Xamarin-Forms/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Welcome]]></title>
-    <link href="http://daniel-luberda.github.io/20150918/Welcome/"/>
-    <id>http://daniel-luberda.github.io/20150918/Welcome/</id>
-    <published>2015-09-18T16:00:43.000Z</published>
-    <updated>2015-09-19T16:42:58.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="welcome-to-my-blog"><a class="header-anchor" href="#welcome-to-my-blog">Ξ </a>Welcome to my blog</h1>
-]]></content>
-    <summary type="html">
-    <![CDATA[<h1 id="welcome-to-my-blog"><a class="header-anchor" href="#welcome-to-my-blog">Ξ </a>Welcome to my blog</h1>
-]]>
-    </summary>
-    
-  </entry>
-  
-</feed>
+
+            
+                
+
+            
+        </div>
+    </div>
+    <div class="post-footer main-content-wrap">
+        
+            <div class="post-footer-tags">
+                <span class="text-color-light text-small">TAGGED IN</span><br/>
+                
+    <a class="tag tag--primary tag--small t-link" href="/tags/C/">C#</a> <a class="tag tag--primary tag--small t-link" href="/tags/Caching/">Caching</a> <a class="tag tag--primary tag--small t-link" href="/tags/DLToolkit/">DLToolkit</a> <a class="tag tag--primary tag--small t-link" href="/tags/DLToolkit-PageFactory/">DLToolkit.PageFactory</a> <a class="tag tag--primary tag--small t-link" href="/tags/ICommand/">ICommand</a> <a class="tag tag--primary tag--small t-link" href="/tags/INotifyPropertyChanged/">INotifyPropertyChanged</a> <a class="tag tag--primary tag--small t-link" href="/tags/MVVM/">MVVM</a> <a class="tag tag--primary tag--small t-link" href="/tags/Messaging/">Messaging</a> <a class="tag tag--primary tag--small t-link" href="/tags/Navigation/">Navigation</a> <a class="tag tag--primary tag--small t-link" href="/tags/PageFactory/">PageFactory</a> <a class="tag tag--primary tag--small t-link" href="/tags/PageFactoryCommand/">PageFactoryCommand</a> <a class="tag tag--primary tag--small t-link" href="/tags/ViewModel/">ViewModel</a> <a class="tag tag--primary tag--small t-link" href="/tags/Xamarin/">Xamarin</a> <a class="tag tag--primary tag--small t-link" href="/tags/Xamarin-Forms/">Xamarin.Forms</a>
+
+            </div>
+        
+        <div class="post-actions-wrap">
+    <nav>
+        <ul class="post-actions post-action-nav">
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--disabled">
+                
+                    <i class="fa fa-angle-left"></i>
+                    <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                </a>
+            </li>
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/20150918/Welcome/" data-tooltip="Welcome">
+                
+                    <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <ul class="post-actions post-action-share">
+        <li class="post-action hide-lg hide-md hide-sm">
+            <a class="post-action-btn btn btn--default btn-open-shareoptions"  href="#btn-open-shareoptions">
+                <i class="fa fa-share-alt"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://daniel-luberda.github.io/20150922/Page-Factory-MVVM-library-for-Xamarin-Forms/">
+                <i class="fa fa-google-plus"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://daniel-luberda.github.io/20150922/Page-Factory-MVVM-library-for-Xamarin-Forms/">
+                <i class="fa fa-facebook-official"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://daniel-luberda.github.io/20150922/Page-Factory-MVVM-library-for-Xamarin-Forms/">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+        
+            <li class="post-action">
+                <a class="post-action-btn btn btn--default" href="#disqus_thread">
+                    <i class="fa fa-comment-o"></i>
+                </a>
+            </li>
+        
+        <li class="post-action">
+            
+                <a class="post-action-btn btn btn--default" href="#">
+            
+                <i class="fa fa-list"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+        
+            <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+        
+    </div>
+</article>
+
+
+
+                <footer id="footer" class="main-content-wrap">
+    <span class="copyrights">
+        Copyrights &copy; 2015 Daniel Luberda. All Rights Reserved.
+    </span>
+</footer>
+
+            </div>
+            
+                <div id="bottom-bar" class="post-bottom-bar" data-behavior="3">
+                    <div class="post-actions-wrap">
+    <nav>
+        <ul class="post-actions post-action-nav">
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--disabled">
+                
+                    <i class="fa fa-angle-left"></i>
+                    <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                </a>
+            </li>
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/20150918/Welcome/" data-tooltip="Welcome">
+                
+                    <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <ul class="post-actions post-action-share">
+        <li class="post-action hide-lg hide-md hide-sm">
+            <a class="post-action-btn btn btn--default btn-open-shareoptions"  href="#btn-open-shareoptions">
+                <i class="fa fa-share-alt"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://daniel-luberda.github.io/20150922/Page-Factory-MVVM-library-for-Xamarin-Forms/">
+                <i class="fa fa-google-plus"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://daniel-luberda.github.io/20150922/Page-Factory-MVVM-library-for-Xamarin-Forms/">
+                <i class="fa fa-facebook-official"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://daniel-luberda.github.io/20150922/Page-Factory-MVVM-library-for-Xamarin-Forms/">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+        
+            <li class="post-action">
+                <a class="post-action-btn btn btn--default" href="#disqus_thread">
+                    <i class="fa fa-comment-o"></i>
+                </a>
+            </li>
+        
+        <li class="post-action">
+            
+                <a class="post-action-btn btn btn--default" href="#">
+            
+                <i class="fa fa-list"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+                </div>
+                <div id="share-options-bar" class="share-options-bar" data-behavior="3">
+    <ul class="share-options">
+        <li class="share-option">
+            <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=http://daniel-luberda.github.io/20150922/Page-Factory-MVVM-library-for-Xamarin-Forms/">
+                <i class="fa fa-google-plus"></i><span class="">Share on Google Plus</span>
+            </a>
+        </li>
+        <li class="share-option">
+            <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://daniel-luberda.github.io/20150922/Page-Factory-MVVM-library-for-Xamarin-Forms/">
+                <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
+            </a>
+        </li>
+        <li class="share-option">
+            <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http://daniel-luberda.github.io/20150922/Page-Factory-MVVM-library-for-Xamarin-Forms/">
+                <i class="fa fa-twitter"></i><span>Share on Twitter</span>
+            </a>
+        </li>
+    </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+            
+        </div>
+        <div id="about">
+    <div id="about-card">
+        <div id="about-btn-close">
+            <i class="fa fa-remove"></i>
+        </div>
+        
+            <img id="about-card-picture" src="/assets/images/avatar.png"/>
+        
+            <h4 id="about-card-name">Daniel Luberda</h4>
+        
+            <h5 id="about-card-bio"><p>I love to participate in interesting projects!</p>
+</h5>
+        
+        
+            <h5 id="about-card-job">
+                <i class="fa fa-briefcase"></i>
+                <br/>
+                <p>Self-employed</p>
+
+            </h5>
+        
+        
+            <h5 id="about-card-location">
+                <i class="fa fa-map-marker"></i>
+                <br/>
+                Poland
+            </h5>
+        
+    </div>
+</div>
+
+        <div id="cover" style="background-image:url('http://res.cloudinary.com/dqeaiomo8/image/upload/v1442673299/background_dodrrx.png');"></div>
+    </body>
+    <!--SCRIPTS-->
+<script src="/assets/js/script.min.js" type="text/javascript"></script>
+<!--SCRIPTS END-->
+
+    <script type="text/javascript">
+        var disqus_shortname = 'dluberdablog';
+        (function() {
+            var dsq = document.createElement('script');
+            dsq.type = 'text/javascript';
+            dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+
+
+
+</html>

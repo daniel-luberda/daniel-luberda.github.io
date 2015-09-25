@@ -2173,7 +2173,7 @@
   src: local("Merriweather Bold Italic"), local("Merriweather-BoldItalic"), url(https://fonts.gstatic.com/s/merriweather/v8/EYh7Vl4ywhowqULgRdYwII1kRdeHIFWYEsp6A2f99b0.ttf) format("truetype"); }
 
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Baskerville", "Open Sans", sans-serif;
   font-size: 62.5%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -2187,7 +2187,7 @@ body {
   margin: 0;
   padding: 0;
   background: white;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Baskerville", "Open Sans", sans-serif;
   font-size: 1.5rem;
   line-height: 1.85em;
   letter-spacing: 0.01em;
@@ -2247,11 +2247,11 @@ a:hover,
 a:active,
 a:visited {
   cursor: pointer;
-  color: #64b5f6;
+  color: #5561ad;
   text-decoration: none; }
 
 a:hover {
-  color: #64b5f6;
+  color: #5561ad;
   text-decoration: underline; }
 
 table {
@@ -2287,7 +2287,7 @@ code {
 
 acronym,
 abbr {
-  border-bottom: 1px dotted #5d686f; }
+  border-bottom: 1px dotted #454545; }
 
 blockquote {
   border-left: 2px solid #d1dced;
@@ -2379,7 +2379,7 @@ blockquote {
       font-size: 1.5rem;
       line-height: 1.85em;
       font-weight: 400;
-      color: #5d686f; }
+      color: #454545; }
 
 @media only screen and (max-width: 767px) {
   #about #about-card {
@@ -3020,7 +3020,7 @@ blockquote {
   display: none; }
 
 .archive .archive-title {
-  color: #5d686f; }
+  color: #454545; }
   .archive .archive-title:hover {
     text-decoration: underline; }
 
@@ -3030,7 +3030,7 @@ blockquote {
     font-size: 1.4rem; }
     .archive .archive-posts .archive-post .archive-post-title {
       margin-left: 10px;
-      color: #5d686f; }
+      color: #454545; }
       .archive .archive-posts .archive-post .archive-post-title:hover {
         text-decoration: underline; }
     .archive .archive-posts .archive-post .archive-post-date {
@@ -3224,7 +3224,7 @@ a.category--small,
   width: 100%;
   border: none;
   outline: none;
-  color: #5d686f;
+  color: #454545;
   font-weight: 300; }
   .form-control:hover,
   .form-control:focus {
@@ -3295,8 +3295,7 @@ figure.highlight {
   figure.highlight .code {
     padding: 0.3em 0.3em 0.3em 1em; }
   figure.highlight .line {
-    height: 1.2em;
-    font-size: 1.3rem; }
+    height: 1.2em; }
 
 .gist .line,
 .gist .line-number {
@@ -3380,6 +3379,9 @@ figure.highlight {
 
 .highlight.cs .code .xmlDocTag {
   color: #63a35c; }
+
+.highlight.cs .code .function {
+  color: #0086b3; }
 
 .highlight.css .code .at_rule,
 .highlight.css .code .important {
@@ -3824,7 +3826,7 @@ a.link-unstyled a.link:active {
       color: #9eabb3; }
   .post .post-content {
     font-family: 'Merriweather', serif;
-    color: #5d686f;
+    color: #454545;
     margin-top: 60px;
     font-weight: 300;
     overflow: hidden;
@@ -4057,7 +4059,7 @@ a.link-unstyled a.link:active {
   .postShorten .postShorten-excerpt,
   .postShorten .postShorten-content {
     font-family: 'Merriweather', serif;
-    color: #5d686f;
+    color: #454545;
     font-weight: 300;
     overflow: hidden;
     word-break: break-word;
@@ -4275,13 +4277,13 @@ a.tag--small,
   text-decoration: underline !important; }
 
 .text-color-base {
-  color: #5d686f !important; }
+  color: #454545 !important; }
 
 .text-color-light {
   color: #9eabb3 !important; }
 
 .text-color-link {
-  color: #64b5f6 !important; }
+  color: #5561ad !important; }
 
 .tooltip, [data-tooltip] {
   position: relative;
