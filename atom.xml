@@ -34,6 +34,7 @@
 <li><a href="#example-showing-basic-features">Example showing basic features</a></li>
 <li><a href="#summary">Summary</a></li>
 </ol>
+<p>Project site: <a href="https://github.com/daniel-luberda/DLToolkit.PageFactory" target="_blank" rel="external">https://github.com/daniel-luberda/DLToolkit.PageFactory</a></p>
 <h2 id="minimal-code-to-get-it-working"><a class="header-anchor" href="#minimal-code-to-get-it-working">Ξ </a>Minimal code to get it working</h2>
 <p>Install nuget package from: <a href="https://www.nuget.org/packages/DLToolkit.PageFactory.Forms/" target="_blank" rel="external">https://www.nuget.org/packages/DLToolkit.PageFactory.Forms/</a></p>
 <h3 id="simple-helloworld-example"><a class="header-anchor" href="#simple-helloworld-example">Ξ </a>Simple “HelloWorld” example:</h3>
